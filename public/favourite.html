@@ -1,0 +1,19 @@
+<h2>My Favorite Songs ❤️</h2>
+<div id="favSongs"></div>
+
+<script>
+fetch("/favorites/1") // user_id
+.then(res => res.json())
+.then(data => {
+    const container = document.getElementById("favSongs");
+
+    data.forEach(song => {
+        container.innerHTML += `
+            <div>
+                <h3>${song.title}</h3>
+                <audio src="${song.file_url}" controls></audio>
+            </div>
+        `;
+    });
+});
+</script>

@@ -1,0 +1,33 @@
+.cardContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Card */
+.cards {
+    background-color: #181818;
+    padding: 15px;
+    border-radius: 12px;
+    transition: background 0.3s ease, transform 0.3s ease;
+    cursor: pointer;
+}
+
+/* Hover effect (very Spotify-like) */
+.cards:hover {
+    background-color: #282828;
+    transform: scale(1.03);
+}
+
+/* Album / playlist image */
+.cards img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.contain{
+    display: flex;
+    gap: 10px;
+}

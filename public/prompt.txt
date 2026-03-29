@@ -1,0 +1,7 @@
+i need you to make a simple website....nothing much fancy just using: mysql, node/express js and html css js.....
+
+the website is just like spotify playing music. The songs are uploaded on my git repo....just keep the src blank for me.The songs are stored in different playlists according to their genre.
+
+It should have a login feature(table for it in sql) also i want you to add a create plalist option for the user(table for it as well)
+
+lastly all the genre playlists are stored on different webpages...once logged/registered through the login.hmlt go to main,html(show all plalist all cards just like spotify) then each playlist opens on a different webpage as well.	
